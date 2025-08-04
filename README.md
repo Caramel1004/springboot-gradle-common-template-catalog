@@ -27,5 +27,6 @@ git: https://github.com/toml-lang/toml
 project<br>
 ├── build.gradle.kts          ← Kotlin DSL<br>
 ├── settings.gradle.kts       ← Kotlin DSL<br>
-├── gradle/libs.versions.toml ← Version Catalog<br>
-└── src/main/java/com/example/App.java
+├── gradle ← Version Catalog<br>
+└──── libs.versions.toml
+└── backend-api
