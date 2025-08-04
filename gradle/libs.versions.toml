@@ -1,0 +1,29 @@
+[versions]
+project = "1.0.0"
+springBoot = "3.5.4"
+springDependencyManagement = "1.1.7"
+h2 = "2.3.232"
+jpa = "3.5.4"
+junitJupiterApi = "5.13.4"
+mockito = "5.18.0"
+
+[libraries]
+# Spring dependencies
+spring-boot-starter-web = { group = "org.springframework.boot", name = "spring-boot-starter-web" }
+spring-context = { group = "org.springframework", name = "spring-context" }
+spring-processor = { group = "org.springframework.boot", name = "spring-boot-configuration-processor" }
+spring-boot = { group = "org.springframework.boot", name = "spring-boot" }
+jakarta-annotation = { group = "jakarta.annotation", name = "jakarta.annotation-api" }
+spring-boot-starter-data-jpa = { group = "org.springframework.boot", name = "spring-boot-starter-data-jpa", version.ref = "jpa" }
+
+# Test dependencies
+junit-jupiter-api = { group = "org.junit.jupiter", name = "junit-jupiter-api", version.ref = "junitJupiterApi" }
+junit = { group = "junit", name = "junit" }
+mockito = { group = "org.mockito", name = "mockito-core", version.ref = "mockito"}
+
+# DB dependencies
+h2 = { group = "com.h2database", name = "h2", version.ref = "h2" }
+
+[plugins]
+springframework-boot = { id = "org.springframework.boot", version.ref = "springBoot" }
+spring-dependency-management = { id = "io.spring.dependency-management", version.ref = "springDependencyManagement" }
