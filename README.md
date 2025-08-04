@@ -28,5 +28,5 @@ project<br>
 ├── build.gradle.kts          ← Kotlin DSL<br>
 ├── settings.gradle.kts       ← Kotlin DSL<br>
 ├── gradle ← Version Catalog<br>
-└──── libs.versions.toml
+└──── libs.versions.toml<br>
 └── backend-api
