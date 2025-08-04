@@ -1,4 +1,3 @@
-# springboot-gradle-common-template-catalog
 ## English
 A catalog of reusable Springboot Gradle setup templates.<br>
 Provides modular, maintainable, and standardized configurations to bootstrap your projects quickly.<br>
